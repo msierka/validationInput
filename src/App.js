@@ -7,7 +7,7 @@ class App extends Component {
     username: '',
     email: '',
     password: '',
-    accept: false
+    accept: false,
   }
   handleChange = (e) => {
     const value = e.target.value;
